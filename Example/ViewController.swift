@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sayHello(_ sender: Any) {
-        greetingLabel.text = "Hello, \(yourName.text ?? "")!"
+        greetingLabel.text = "Hello, \(yourName.text ?? "")! How are you?"
     }
     
     
